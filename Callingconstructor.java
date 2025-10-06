@@ -11,7 +11,7 @@ class Constructor
         this.age=age;
     }
     void display(){
-        System.out.println(name+" - "+age);
+        System.out.println(name+" --"+age);
     }   
 }
 
