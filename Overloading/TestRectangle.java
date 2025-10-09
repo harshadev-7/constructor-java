@@ -1,4 +1,3 @@
-package Overloading;
 import java.util.Scanner;
 class Rectangle{
     int length;
