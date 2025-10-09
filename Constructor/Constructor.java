@@ -3,7 +3,7 @@ class test{
     int age;
 
     public test() {
-age = 18;
+        age = 18;
         name = "harsha";
     }
 
