@@ -27,3 +27,25 @@ Without constructors:
 2. Extra initialization methods would be required.
 3. Risk of improper object state.
 ![image alt](https://github.com/harshadev-7/constructor-java/blob/b67945e71655278064af3c62ab27eb1da883833c/Screenshot_20251012_121433_Brave.jpg)
+
+##### When Java Constructor is Called?
+Each time an object is created using a new() keyword, at least one constructor (it could be the default constructor) is invoked to assign initial values to the data members of the same class. Rules for writing constructors are as follows:
+
+The constructor of a class must have the same name as the class name in which it resides.
+A constructor in Java can not be abstract, final, static, or Synchronized.
+Access modifiers can be used in constructor declaration to control its access i.e which other class can call the constructor.
+So, we have learned constructors are used to initialize the object's state. Like methods , a constructor also contains a collection of statements (i.e. instructions) that are executed at the time of object creation.
+
+# Types of Constructors in Java
+Now is the correct time to discuss the types of the constructor, so primarily there are three types of constructors in Java are mentioned below:
+
+# Default Constructor
+# Parameterized Constructor
+# Copy Constructor
+# 1. Default Constructor in Java
+A constructor that has no parameters is known as default constructor. A default constructor is invisible. And if we write a constructor with no arguments, the compiler does not create a default constructor. Once you define a constructor (with or without parameters), the compiler no longer provides the default constructor. Defining a parameterized constructor does not automatically create a no-argument constructor, we must explicitly define if needed. The default constructor can be implicit or explicit.
+
+# Implicit Default Constructor: 
+If no constructor is defined in a class, the Java compiler automatically provides a default constructor. This constructor doesn’t take any parameters and initializes the object with default values, such as 0 for numbers, null for objects.
+# Explicit Default Constructor: 
+If we define a constructor that takes no parameters, it's called an explicit default constructor. This constructor replaces the one the compiler would normally create automatically. Once you define any constructor (with or without parameters), the compiler no longer provides the default constructor for you.
