@@ -39,13 +39,13 @@ So, we have learned constructors are used to initialize the object's state. Like
 # Types of Constructors in Java
 Now is the correct time to discuss the types of the constructor, so primarily there are three types of constructors in Java are mentioned below:
 
-# Default Constructor
-# Parameterized Constructor
-# Copy Constructor
-# 1. Default Constructor in Java
+#### Default Constructor
+#### Parameterized Constructor
+#### Copy Constructor
+##### 1. Default Constructor in Java
 A constructor that has no parameters is known as default constructor. A default constructor is invisible. And if we write a constructor with no arguments, the compiler does not create a default constructor. Once you define a constructor (with or without parameters), the compiler no longer provides the default constructor. Defining a parameterized constructor does not automatically create a no-argument constructor, we must explicitly define if needed. The default constructor can be implicit or explicit.
 
-# Implicit Default Constructor: 
+##### Implicit Default Constructor: 
 If no constructor is defined in a class, the Java compiler automatically provides a default constructor. This constructor doesn’t take any parameters and initializes the object with default values, such as 0 for numbers, null for objects.
-# Explicit Default Constructor: 
+##### Explicit Default Constructor: 
 If we define a constructor that takes no parameters, it's called an explicit default constructor. This constructor replaces the one the compiler would normally create automatically. Once you define any constructor (with or without parameters), the compiler no longer provides the default constructor for you.
