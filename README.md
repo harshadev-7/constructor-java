@@ -13,3 +13,16 @@ The below table demonstrates the key difference between Java Constructor and Jav
 ![image alt](https://github.com/harshadev-7/constructor-java/blob/05c262cfa5084b5d33e50e78ce5996072764d528/Screenshot_20251012_120129_Brave.jpg)
 
 Now let us come up with the syntax for the constructor being invoked at the time of object or instance creation.
+![image alt](https://github.com/harshadev-7/constructor-java/blob/16e33fc2173427f897eb520903d8ac5920d11c38/Screenshot_20251012_120936_Brave.jpg)
+
+The first line of a constructor is a call to super() or this(), (a call to a constructor of a super-class or an overloaded constructor), if you don't type in the call to super in your constructor the compiler will provide you with a non-argument call to super at the first line of your code, the super constructor must be called to create an object:
+Note:
+If you think your class is not a subclass it actually is, every class in Java is the subclass of a class object even if you don't say extends object in your class definition.
+#### Why Do We Need Constructors in Java
+Constructors play a very important role, it ensures that an object is properly initialized before use.
+##### What happens when we don't use constructors:
+Without constructors:
+
+1. Objects might have undefined or default values.
+2. Extra initialization methods would be required.
+3. Risk of improper object state.
